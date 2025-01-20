@@ -1,0 +1,4 @@
+@font-face {
+    font-family: 'BlueArchiveFont';  /* 自定义字体的名称 */
+    src: url("../font/方正兰亭圆简体_粗.ttf") format('woff');  /* 字体文件的路径 */
+}

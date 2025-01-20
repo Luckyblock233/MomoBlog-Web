@@ -1,0 +1,38 @@
+@startuml
+title JSP登录页面对象图
+
+object "UserInterface" as UI
+object "LoginServlet" as LS
+object "CaptchaService" as CS
+object "ErrorMessage" as EM
+
+UI --> LS: 提交表单数据
+UI --> CS: 生成验证码
+LS --> EM: 显示错误消息
+
+note right of UI
+  属性：
+  - nowUsername
+  - nowPassword
+  - nowCaptchaCode
+  - keep
+  - loginButton
+  - registerButton
+end note
+
+note right of LS
+  方法：
+  - doPost()
+end note
+
+note right of CS
+  方法：
+  - refreshCaptcha()
+end note
+
+note right of EM
+  属性：
+  - errorMessage
+end note
+
+@enduml

@@ -1,0 +1,123 @@
+body {
+    font-family: 'BlueArchiveFont', Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: right;
+    padding-right: 5%;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+
+    background-image: url("../img/bg-index.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 20px;
+    opacity: 0.85;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.form-group {
+    margin-bottom: 10px;
+    text-align: left;
+    display: flex;
+}
+
+label {
+    display: block;
+    position: relative;
+}
+
+input[type="text"], input[type="password"], input[type="submit"], input[type="checkbox"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #263473;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #34479c;
+}
+
+input[type="checkbox"] {
+    width: auto;
+    float: left;
+}
+
+label[for="keep"] {
+    font-size: 12px;
+    align-content: center;
+}
+
+#imgValidate {
+    cursor: pointer;
+    margin-left: 5px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.register-link {
+    margin-top: 5px;
+}
+
+.register-link input[type="submit"] {
+    background-color: #263473;
+    width: 100%;
+}
+
+.register-container {
+    position: relative;
+    background-color: #fff;
+    padding: 20px;
+    opacity: 0.85;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 350px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.back-to-login {
+    cursor: pointer;
+    position: absolute;
+    top: 12%;
+    left: 3%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: gray;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.password-tip {
+    text-align: left;
+    font-size: 12px;
+    color: #888;
+}
